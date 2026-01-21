@@ -1,5 +1,5 @@
 James | Computer Science Student & Aspiring Software Engineer
-About Me
+About Me:
 I am a dedicated Computer Science student passionate about building modern, scalable software solutions. My focus is on backend and full-stack development, problem-solving, and exploring emerging technologies such as AI/ML and ethical hacking. I strive to transform innovative ideas into practical, high-impact applications.
 Skills
 Programming Languages:
@@ -38,6 +38,7 @@ Exploring best practices in clean code, documentation, and version control.
 Engaging in real-world problem-solving with practical applications.
 Contact & Collaboration
 I am open to collaboration, mentorship, and challenging projects that push my skills further.
-Email: [Your Email Here]
-LinkedIn: [Your LinkedIn Here]
-Portfolio: [Your Portfolio or Website Here]
+Email: [jmbugua781@gmail.com]
+LinkedIn: [jamesmbugua]
+P
+
