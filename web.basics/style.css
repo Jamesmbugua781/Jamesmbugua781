@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(mypic2-Copy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    justify-content: center;
+    margin-top: 0;
+    
+}
+
+
+h1{
+    color: rgb(4, 245, 245);
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+   
+}
+#about{
+     background: rgba(80, 71, 71, 0.6);
+  color: #bf08c6;
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+
+}
+#about:hover {
+  transform: translateY(-8px);
+}
+p{
+    color: rgb(226, 6, 215);
+    font-weight: 300;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.7;
+
+}
+h3{
+    color: rgb(247, 247, 22);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li{
+    color: rgb(245, 119, 29);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h5{
+    color: rgb(4, 140, 224);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.navbar{
+    width: 100%;
+    top: 0;
+    background-color: rgb(245, 241, 242); 
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(244, 239, 239);
+    position: fixed;
+    margin-left: 0;
+    margin-top: 0;
+    height: 60px;
+}
+ 
+
+
+h3:hover {
+    opacity: 0.6;
+}
+ 
+#contact:hover{
+ animation: glow 1.5s infinite ease-in-out;
+}
+@keyframes glow {
+    0%{box-shadow: 0 0 5px cyan;}
+    50%{box-shadow: 0 0 20px cyan;}
+      100%{box-shadow: 0 0 5px cyan;}
+}
+ 
+#contact{
+    background-color: blanchedalmond;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-items: center;
+     width: 450px;
+     margin-top: 3em;
+     line-height: 2em;
+     animation: combo 1.5s infinite ease-in-out;
+     justify-self: center;
+     border-radius: 10px;
+     font-size: 35px;
+    
+}
+
+ 
+ .footer-copy{
+    color: rgb(5, 127, 234);
+    display: flex;
+    justify-self: center;
+ }
+ 
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+    padding: 3rem;
+}
+ 
+
+.skill-box {
+  background: rgba(60, 44, 44, 0.6);
+  color: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-8px);
+}
+
+.skill-box h2 {
+  margin-bottom: 1rem;
+  color: #00eaff;
+}
+
+.skill-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-box li {
+  margin-bottom: 0.5rem;
+}
